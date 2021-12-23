@@ -65,10 +65,12 @@ public class AdaptadorEvaluado extends RecyclerView.Adapter<AdaptadorEvaluado.Vi
             txt_id_evaluado.setText(evaluado.getId_evaluado());
             txt_nombres.setText(evaluado.getNombres());
             txt_cargo.setText(evaluado.getCargo());
-            Glide.with(context).load(evaluado.getImgJPG()).into(imgJPG);
-            if(imgJPG.getDrawable() == null){
-                Glide.with(context).load(evaluado.getImgjpg()).into(imgJPG);
-            }
+            Glide.with(context)
+                    .load(evaluado.getImgJPG())
+                    .error(R.drawable.unknown)
+                    .load(evaluado.getImgjpg())
+                    .error(R.drawable.unknown)
+                    .into(imgJPG);
         }
     }
 }

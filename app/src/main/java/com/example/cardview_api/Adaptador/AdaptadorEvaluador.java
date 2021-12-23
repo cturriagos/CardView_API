@@ -77,7 +77,13 @@ public class AdaptadorEvaluador extends RecyclerView.Adapter<AdaptadorEvaluador.
             txt_idevaluador.setText(evaluador.getIdevaluador());
             txt_nombres.setText(evaluador.getNombres());
             txt_area.setText(evaluador.getArea());
-            Glide.with(context).load(evaluador.getImgjpg()).into(img_evaluador);
+            //Glide.with(context).load(evaluador.getImgjpg()).into(img_evaluador);
+            Glide.with(context)
+                    .load(evaluador.getImgJPG())
+                    .error(R.drawable.unknown)
+                    .load(evaluador.getImgjpg())
+                    .error(R.drawable.unknown)
+                    .into(img_evaluador);
             //SystemClock.sleep(1000);
             //Wait for 500 ms then check!.
             /*Handler handler = new Handler();
