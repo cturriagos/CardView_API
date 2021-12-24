@@ -5,14 +5,14 @@ LISTA DE EVALUADORES Y LISTA DE PERSONAS A EVALUAR (EVALUADOS)
 
 # Screenshots
 
-# Captura 1 - Aplicación movil
-![](https://github.com/cturriagos/API_Restful_Header/blob/master/Screenshots/Cap1.jpeg)
+# Captura 1 - Aplicación móvil - Lista de evaluadores
+![](https://github.com/cturriagos/CardView_API/blob/master/Screenshots/Captura1.png)
 
-# Captura 2 - Creación API - GET
-![](https://github.com/cturriagos/API_Restful_Header/blob/master/Screenshots/Cap2.jpeg)
+# Captura 2 - Aplicación móvil - Más evaluadores
+![](https://github.com/cturriagos/CardView_API/blob/master/Screenshots/Captura2.png)
 
-# Captura 3 - Despliegue en Heroku
-![](https://github.com/cturriagos/API_Restful_Header/blob/master/Screenshots/Cap3.jpeg)
+# Captura 3 - Aplicación móvil - Lista de evaluados
+![](https://github.com/cturriagos/CardView_API/blob/master/Screenshots/Captura3.png)
 
-# Captura 4 - Consumo de la API desplegeada en Heroku
-![](https://github.com/cturriagos/API_Restful_Header/blob/master/Screenshots/Cap4.jpeg)
+# Captura 4 - Aplicación móvil - Más evaluados
+![](https://github.com/cturriagos/CardView_API/blob/master/Screenshots/Captura4.png)
